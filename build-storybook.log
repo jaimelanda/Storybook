@@ -1,8 +1,9 @@
-$ storybook build --output-dir /tmp/chromatic--37566-PZPw0j5F3v4w
+yarn run v1.22.21
+$ storybook build --output-dir /tmp/chromatic--38817-Oj2cW0Tcn6Rv
 @storybook/cli v7.6.6
 
-info => Cleaning outputDir: /tmp/chromatic--37566-PZPw0j5F3v4w
-(node:37674) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+info => Cleaning outputDir: /tmp/chromatic--38817-Oj2cW0Tcn6Rv
+(node:38931) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 info => Loading presets
 WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 7.0; and will likely be removed in a future version.
@@ -11,63 +12,64 @@ WARN https://storybook.js.org/docs/react/writing-docs/mdx#lack-of-github-flavore
 WARN 
 WARN Once you've made the necessary changes, you can remove the addon from your package.json and storybook config.
 info => Building manager..
-info => Manager built (129 ms)
+info => Manager built (107 ms)
 info => Building preview..
-info => Copying static files: /home/jaimelanda/taskbox/node_modules/@storybook/manager/static at /tmp/chromatic--37566-PZPw0j5F3v4w/sb-common-assets
-info => Copying static files: /home/jaimelanda/taskbox/public at /tmp/chromatic--37566-PZPw0j5F3v4w/
+info => Copying static files: /home/jaimelanda/taskbox/node_modules/@storybook/manager/static at /tmp/chromatic--38817-Oj2cW0Tcn6Rv/sb-common-assets
+info => Copying static files: /home/jaimelanda/taskbox/public at /tmp/chromatic--38817-Oj2cW0Tcn6Rv/
 vite v4.5.1 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
 transforming...
 node_modules/telejson/dist/index.mjs (1413:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
 node_modules/telejson/dist/index.mjs (1416:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
-✓ 865 modules transformed.
+✓ 868 modules transformed.
 rendering chunks...
 computing gzip size...
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/iframe.html                                     12.58 kB │ gzip:   3.58 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/percolate-dac75269.ttf                   34.04 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/percolate-ec979d96.woff                  34.11 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/percolate-5ed633c2.eot                   34.21 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  47.50 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-4f244d89.css                      6.87 kB │ gzip:   2.06 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/_commonjs-dynamic-modules-302442b1.js     0.24 kB │ gzip:   0.19 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/WithTooltip-V3YHNWJZ-b1c35d94.js          0.44 kB │ gzip:   0.27 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/syntaxhighlighter-V7JZZA35-8550b15b.js    0.45 kB │ gzip:   0.29 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-a4de8676.js                       0.51 kB │ gzip:   0.33 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-3fd0d1ea.js                         0.58 kB │ gzip:   0.35 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.44 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/_commonjsHelpers-de833af9.js              0.69 kB │ gzip:   0.38 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-8d47fad6.js                         0.80 kB │ gzip:   0.52 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-8ca65ea1.js                       1.04 kB │ gzip:   0.67 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/entry-preview-fb6629d6.js                 1.12 kB │ gzip:   0.66 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/Task.stories-e8979f03.js                  3.66 kB │ gzip:   1.54 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/iframe-c4a0093d.js                        4.64 kB │ gzip:   1.66 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.39 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-76fb7be0.js                         7.16 kB │ gzip:   2.91 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.56 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.16 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-da07a199.js                        13.61 kB │ gzip:   5.08 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/Color-6VNJS4EI-5daac63d.js               17.64 kB │ gzip:   6.75 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/TaskList.stories-5abf1d4c.js             32.31 kB │ gzip:  12.05 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-f93f0a1a.js                      34.19 kB │ gzip:  13.35 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/preview-21802b0a.js                      72.07 kB │ gzip:  24.33 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/_getPrototype-1e53b583.js                78.40 kB │ gzip:  23.40 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/react-18-236157c6.js                    134.55 kB │ gzip:  43.45 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/entry-preview-docs-17bdf6ae.js          212.41 kB │ gzip:  65.85 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/index-69d26cbb.js                       372.82 kB │ gzip: 114.15 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/DocsRenderer-NNNQARDV-48a23abb.js       537.37 kB │ gzip: 175.11 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/axe-c259e37e.js                         556.42 kB │ gzip: 152.74 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/InboxScreen.stories-59c1036f.js         562.35 kB │ gzip: 148.57 kB
-../../../tmp/chromatic--37566-PZPw0j5F3v4w/assets/formatter-SWP5E3XI-ea4bfc80.js          601.64 kB │ gzip: 185.06 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/iframe.html                                     12.58 kB │ gzip:   3.58 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/percolate-dac75269.ttf                   34.04 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/percolate-ec979d96.woff                  34.11 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/percolate-5ed633c2.eot                   34.21 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  47.50 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-4f244d89.css                      6.87 kB │ gzip:   2.06 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/_commonjs-dynamic-modules-302442b1.js     0.24 kB │ gzip:   0.19 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/WithTooltip-V3YHNWJZ-dc97b981.js          0.44 kB │ gzip:   0.27 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/syntaxhighlighter-V7JZZA35-fd058a46.js    0.45 kB │ gzip:   0.29 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-d7bafc50.js                       0.51 kB │ gzip:   0.33 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-3fd0d1ea.js                         0.58 kB │ gzip:   0.35 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.44 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/_commonjsHelpers-de833af9.js              0.69 kB │ gzip:   0.38 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-8d47fad6.js                         0.80 kB │ gzip:   0.52 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-64e4e223.js                       1.04 kB │ gzip:   0.67 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/entry-preview-fb6629d6.js                 1.12 kB │ gzip:   0.66 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/Task.stories-e8979f03.js                  3.66 kB │ gzip:   1.54 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/iframe-4ac2dd05.js                        4.64 kB │ gzip:   1.66 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.39 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-76fb7be0.js                         7.16 kB │ gzip:   2.91 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.56 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.16 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-03bbf7d1.js                        13.51 kB │ gzip:   5.05 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/Color-6VNJS4EI-6957e83d.js               17.61 kB │ gzip:   6.74 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/TaskList.stories-5abf1d4c.js             32.31 kB │ gzip:  12.05 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-bc442910.js                      34.18 kB │ gzip:  13.35 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/preview-21802b0a.js                      72.07 kB │ gzip:  24.33 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/_getPrototype-1e53b583.js                78.40 kB │ gzip:  23.40 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/react-18-236157c6.js                    134.55 kB │ gzip:  43.45 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/entry-preview-docs-17bdf6ae.js          212.41 kB │ gzip:  65.85 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/index-69d26cbb.js                       372.82 kB │ gzip: 114.15 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/DocsRenderer-NNNQARDV-28e1e525.js       537.37 kB │ gzip: 175.10 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/axe-c259e37e.js                         556.42 kB │ gzip: 152.74 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/InboxScreen.stories-59c1036f.js         562.35 kB │ gzip: 148.57 kB
+../../../tmp/chromatic--38817-Oj2cW0Tcn6Rv/assets/formatter-SWP5E3XI-2366547f.js          601.64 kB │ gzip: 185.05 kB
 
 (!) Some chunks are larger than 500 kBs after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 8.97s
-info => Preview built (9.41 s)
-info => Output directory: /tmp/chromatic--37566-PZPw0j5F3v4w
+✓ built in 8.62s
+info => Preview built (9.06 s)
+info => Output directory: /tmp/chromatic--38817-Oj2cW0Tcn6Rv
+Done in 11.68s.
